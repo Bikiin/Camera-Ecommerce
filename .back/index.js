@@ -17,7 +17,7 @@ routerApi(app)
 //Para crear cuenta a traves de post
 //      http://localhost:3010/api/v1/users/
 //Para iniciar sesion a traves de post
-//      http://localhost:3010/api/v1/users/
+//      http://localhost:3010/api/v1/users/login
 
 
 
