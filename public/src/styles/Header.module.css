@@ -1,0 +1,77 @@
+@import url(./index.css);
+
+.nanvar{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    border-bottom: 1px solid var(--very-light-pink);
+    position: fixed;
+}
+.sections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    width: 85%;
+    margin: 0.75%;
+    
+}
+
+.num{
+    font-size: var(--lg);
+    font-weight: bolder;
+    margin-right: 8px;
+}
+.div{
+    display: flex;
+}
+
+.logo{
+    width: 40px;
+}
+.cart{
+    width: 40px
+}
+.menu{
+    width: 40px
+}
+
+figure{
+    margin: 0px;
+}
+
+.sections li{
+    color: var(--very-light-pink);
+    font-size: var(--sm);
+    border: 1px solid var(--white);
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.sections li:hover{
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+}
+@media (max-width: 520px) {
+
+    .logo{
+        width: 30px;
+    }
+    .cart{
+        width: 30px
+    }
+    .menu{
+        width: 30px
+    }
+    .sections{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        padding: 0px;
+        width: 85%;
+        margin: 2%;
+    }
+    
+}

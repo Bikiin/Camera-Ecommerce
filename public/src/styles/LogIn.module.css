@@ -1,0 +1,82 @@
+@import url(./index.css);
+
+.login{
+
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-content: center; 
+}
+.formContainer{
+    margin-top: 332px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 320px;
+    margin-bottom: 200px;
+}
+.logo{
+    width: 200px;
+    margin-bottom: 40px;
+    justify-self: center;
+    display: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    font-weight: bolder;
+    font-size: var(--sm);
+    margin-bottom: 4px;
+}
+.input{
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    margin-top: 2px;
+    background-color: var(--text-input-field);
+    padding: 4px;
+    height: 24px;
+    font-size: var(--sm);
+    
+}
+.primaryButton{
+    color: var(--white);
+    background-color: var(--hospital-green);
+    border: none;
+    border-radius: 8px;
+    height: 64px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    width: 100%;
+} 
+.form a{
+    color: var(--hospital-green);
+    text-align: center;
+    font-size: var(--sm);
+    margin-top: 32px;
+    text-decoration: none;
+}
+.button{
+    color: var(--hospital-green);
+    border-color: var(--hospital-green);
+    border-radius: 8px;
+    margin-top: 180px;
+    height: 64px;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 720px) {
+    .button{
+        margin-top: 64px;
+    }
+}

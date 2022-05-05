@@ -1,0 +1,15 @@
+@import url('./index.css');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 45vw;
+    position: absolute;
+    width: 100%;
+    
+
+}
+.tittle{
+    justify-self: center;
+}

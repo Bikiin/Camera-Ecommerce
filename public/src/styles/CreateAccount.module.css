@@ -1,0 +1,64 @@
+@import url(./index.css);
+
+.parraf{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+}
+.login{
+
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-content: center; 
+}
+.formContainer{
+    margin-top: 16rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 320px;
+    margin-bottom: 200px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    font-weight: bolder;
+    font-size: var(--sm);
+    margin-bottom: 4px;
+}
+.input{
+    border: none;
+    border-radius: 8px;
+    margin-top: 2px;
+    background-color: var(--text-input-field);
+    padding: 4px;
+    height: 24px;
+    font-size: var(--sm);
+    
+}
+.primaryButton{
+    color: var(--white);
+    background-color: var(--hospital-green);
+    border: none;
+    border-radius: 8px;
+    height: 64px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 8%;
+    justify-content: center;
+} 
+
+
+@media (min-width: 720px) {
+    .button{
+        margin-top: 64px;
+    }
+}
